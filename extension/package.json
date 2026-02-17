@@ -5,7 +5,8 @@
   "scripts": {
     "build": "tsup && node scripts/copy-static.mjs",
     "watch": "tsup --watch",
-    "dev": "pnpm build && pnpm watch"
+    "dev": "pnpm build && pnpm watch",
+    "pack:crx": "node scripts/pack-crx.mjs"
   },
   "dependencies": {
     "agentation": "workspace:*",

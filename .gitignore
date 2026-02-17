@@ -3,3 +3,6 @@ node_modules
 mcp/dist
 .DS_Store
 extension/dist
+extension/key.pem
+extension/*.crx
+extension/.tmp-ext.zip
