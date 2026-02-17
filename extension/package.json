@@ -1,0 +1,22 @@
+{
+  "name": "agentation-extension",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "build": "tsup && node scripts/copy-static.mjs",
+    "watch": "tsup --watch",
+    "dev": "pnpm build && pnpm watch"
+  },
+  "dependencies": {
+    "agentation": "workspace:*",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/chrome": "^0.0.287",
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "tsup": "^8.0.0",
+    "typescript": "^5.0.0"
+  }
+}
